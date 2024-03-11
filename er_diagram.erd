@@ -1,0 +1,106 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": 508,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1
+  },
+  "doc": {
+    "tableIds": [
+      "hjZme1449M2OeVB5ifIpz"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "hjZme1449M2OeVB5ifIpz": {
+        "id": "hjZme1449M2OeVB5ifIpz",
+        "name": "",
+        "comment": "",
+        "columnIds": [
+          "vjc4d2w7oqEUS1wmDuVQL"
+        ],
+        "seqColumnIds": [
+          "vjc4d2w7oqEUS1wmDuVQL"
+        ],
+        "ui": {
+          "x": 200,
+          "y": 100,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1710163716521,
+          "createAt": 1710163678309
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "vjc4d2w7oqEUS1wmDuVQL": {
+        "id": "vjc4d2w7oqEUS1wmDuVQL",
+        "tableId": "hjZme1449M2OeVB5ifIpz",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1710163716520,
+          "createAt": 1710163716520
+        }
+      }
+    },
+    "relationshipEntities": {},
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  },
+  "lww": {
+    "hjZme1449M2OeVB5ifIpz": [
+      "tableEntities",
+      1710163678302,
+      -1,
+      {}
+    ],
+    "vjc4d2w7oqEUS1wmDuVQL": [
+      "tableColumnEntities",
+      1710163716517,
+      -1,
+      {}
+    ]
+  }
+}
